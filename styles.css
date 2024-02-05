@@ -1,0 +1,127 @@
+:root {
+    --blue: 240, 75%;
+}
+#Head1 {
+      margin: 1rem;
+      margin-left: 0rem;
+    padding-bottom: 1rem;
+     align-items: center; 
+    width: 100vw;
+     height: 100px; 
+    text-align: center; 
+    line-height: 100px;
+    background: hsl(var(--blue), 75%);
+    color:hsl(var(--blue), 100%);
+    position: static;
+    left: 0;
+    right: 0; 
+    display: block;
+}
+body {
+    max-width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+#Hyperlinks,
+ul, 
+li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    font-size: 100%;
+    padding: 10px;
+}
+.borderlist {
+    border-top: 0px hsl(var(--blue), 0%);
+     box-shadow: 1px 2px; 
+    border-bottom: 2px hsl(var(--blue), 0%);
+    border-right: 2px hsl(var(--blue), 0%);
+    border-left: hsl(var(--blue), 0%);
+    border-radius: 5px;
+    border-style: outset;
+    color: hsl(var(--blue), 0%);
+    transition: 2s;
+}
+.borderlist:hover { 
+    background-color: hsl(var(--blue), 25%);
+    color:hsl(var(--blue), 100%);
+    box-shadow: 5px 10px;
+    border-bottom: 5px hsl(var(--blue), 0%);
+    border-right: 5px hsl(var(--blue), 0%);
+    border-left: 5px hsl(var(--blue), 0%);
+    border-top: 0px;
+    transition: 2s;
+    transform: scale(1.2) translateX(5px);
+    a {
+        color: hsl(var(--blue), 100%);
+          }
+  }
+  
+  a {
+    color: hsl(var(--blue), 35%)
+  }
+
+
+#banana,
+header {
+    padding-top: 1rem;
+    font-size: 150%;
+    color:hsl(var(--blue), 35%)
+}
+p {
+    width: 100vw;
+    overflow-wrap: break-word;
+    font-size: 10pt;
+    margin-bottom: 1rem;
+    color:hsl(var(--blue), 15%)
+}
+
+
+#banana:hover {
+    background-color: hsl(var(--blue), 15%);
+    p {
+        color: hsl(var(--blue), 90%);
+    }
+    padding-right: 100vw;
+}
+
+#Orange,
+header {
+    padding-top: 1rem;
+    font-size: 150%;
+    color:hsl(var(--blue), 35%)
+
+}
+p {
+    display: inline-block;
+    width: 100vw;
+    overflow-wrap: break-word;
+    font-size: 10pt;
+    margin-bottom: 1rem;
+    color:hsl(var(--blue), 15%)
+}
+#Orange:hover {
+    background-color: hsl(var(--blue), 15%);
+    p {
+        color: hsl(var(--blue), 90%);
+    }
+    padding-right: 100vw;
+    
+}
+
+.footer {
+    position: static;
+    margin-top: 2rem;
+    left: 0;
+    bottom: 0.5rem;
+    width: 100vw;
+max-height: fit-content;
+    background: hsl(var(--blue), 100%);
+    color:hsl(var(--blue), 0%);
+    text-align: center;
+    border-top: 5px solid hsl(var(--blue), 0%)
+}
+
